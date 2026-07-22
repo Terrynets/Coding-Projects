@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+    int b;
+
+    int sum;
+    cout<<"Enter a number my friend"<<endl;
+    cin>> a;
+
+    cout << "Enter another number"<<endl;
+    cin>> b;
+
+    sum = a + b;
+    cout<< "The sum is equal to = "<<sum<<endl;
+
+    return 0;
+}
