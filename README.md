@@ -1,16 +1,66 @@
-# Wits CS Foundation
+# Coding Projects
 
-Welcome to my technical repository. This project documents my transition from high school top-performer to a Computer Science student at the University of the Witwatersrand.
+A well-organized collection of coding projects and problem-solving exercises across multiple languages.
 
-## 🚀 Overview
-This repository contains my laboratory work and personal projects focused on:
-* **Scientific Computing:** Solving mathematical models using Python.
-* **Algorithmic Thinking:** Logic and structure implementation in C++.
-* **AI Exploration:** Experiments with prompt engineering and automation.
+## 📁 Repository Structure
 
-## 🛠️ Tech Stack
-* **Languages:** Python, C++
-* **Tools:** Notion, AI Automation, Git
+```
+.
+├── cpp/              - C++ projects and algorithms
+├── python/           - Python projects and scripts
+├── csharp/           - C# learning exercises
+├── competitive/      - Competitive programming (LeetCode, HackerRank, etc.)
+└── README.md         - This file
+```
+
+### 📚 Folders
+
+#### `cpp/`
+C++ implementations including:
+- Algorithm problems
+- Data structure implementations
+- Computational mathematics
+- Systems programming projects
+
+#### `python/`
+Python scripts and projects including:
+- Scripting exercises
+- Data processing
+- Scientific computing
+- Automation tools
+
+#### `csharp/`
+C# learning materials including:
+- .NET fundamentals
+- Object-oriented programming
+- Web development exercises
+- Game development with Unity
+
+#### `competitive/`
+Competitive programming solutions including:
+- LeetCode problems
+- HackerRank challenges
+- Codeforces submissions
+- Other online judge problems
 
 ---
-**Contact:** [LinkedIn](https://www.linkedin.com/in/mukovhe-n-9a596935b?utm_source=share_via&utm_content=profile&utm_medium=member_ios) |
+
+## 🚀 Getting Started
+
+1. Navigate to the relevant folder based on the language you want to work with
+2. Each folder contains its own organization and README
+3. Follow the coding style guidelines in each folder
+
+## 🛠️ Tech Stack
+- **Languages:** C++, Python, C#
+- **Tools:** Git, Visual Studio, VS Code
+
+---
+
+## 📝 License
+
+MIT License - See LICENSE file for details
+
+---
+
+**Happy Coding! 🎯**
