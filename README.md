@@ -1,66 +1,38 @@
 # Coding Projects
 
-A well-organized collection of coding projects and problem-solving exercises across multiple languages.
+A personal collection of programming practice, coursework-style exercises, algorithms, and small experiments. The repository includes C++ and Python source files, language/topic folders, and some compiled Windows executables that accompany exercises.
 
-## 📁 Repository Structure
+## What you'll find
 
+- Small C++ programs covering fundamentals such as variables, conditionals, loops, functions, arrays, and introductory math.
+- Python scripts and exercises, including small calculations and experiments.
+- Topic and project folders such as `cpp/`, `python/`, `csharp/`, `competitive/`, `bfs/`, `dfs/`, and `C++ Task Project/`.
+- A root `Makefile`, supporting files, and folders for assets, documentation, and tests.
+- Some checked-in `.exe` files are compiled artifacts; the corresponding source, when available, is the best place to understand or modify a program.
+
+This is a growing learning repository rather than one single application. Individual files and folders may have their own instructions; check those before building or running a specific exercise.
+
+## Working with the code
+
+For an individual C++ source file, compile it with a C++ compiler, for example:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -o program path/to/program.cpp
+./program
 ```
-.
-├── cpp/              - C++ projects and algorithms
-├── python/           - Python projects and scripts
-├── csharp/           - C# learning exercises
-├── competitive/      - Competitive programming (LeetCode, HackerRank, etc.)
-└── README.md         - This file
+
+On Windows, run the resulting executable as `program.exe`. Python scripts can be run with Python 3:
+
+```bash
+python path/to/script.py
 ```
 
-### 📚 Folders
+The repository also includes a `Makefile`; inspect its targets before using `make`, since targets may apply to particular projects or exercises.
 
-#### `cpp/`
-C++ implementations including:
-- Algorithm problems
-- Data structure implementations
-- Computational mathematics
-- Systems programming projects
+## Notes
 
-#### `python/`
-Python scripts and projects including:
-- Scripting exercises
-- Data processing
-- Scientific computing
-- Automation tools
+The programs are primarily learning and practice work. They may vary in completeness, style, and platform compatibility. Compiled binaries are provided as repository artifacts, not as a substitute for reviewing the source.
 
-#### `csharp/`
-C# learning materials including:
-- .NET fundamentals
-- Object-oriented programming
-- Web development exercises
-- Game development with Unity
+## License
 
-#### `competitive/`
-Competitive programming solutions including:
-- LeetCode problems
-- HackerRank challenges
-- Codeforces submissions
-- Other online judge problems
-
----
-
-## 🚀 Getting Started
-
-1. Navigate to the relevant folder based on the language you want to work with
-2. Each folder contains its own organization and README
-3. Follow the coding style guidelines in each folder
-
-## 🛠️ Tech Stack
-- **Languages:** C++, Python, C#
-- **Tools:** Git, Visual Studio, VS Code
-
----
-
-## 📝 License
-
-MIT License - See LICENSE file for details
-
----
-
-**Happy Coding! 🎯**
+MIT. See [`LICENSE`](LICENSE).
